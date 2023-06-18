@@ -28,11 +28,10 @@ func main() {
 		allResults = append(allResults, results...)
 	}
 	resultsByApplicants := append([]result{}, allResults...)
-
-	slices.SortFunc(allResults, func(a, b result) bool {
+	slices.SortStableFunc(allResults, func(a, b result) bool {
 		return a.jobname < b.jobname
 	})
-	slices.SortFunc(resultsByApplicants, func(a, b result) bool {
+	slices.SortStableFunc(resultsByApplicants, func(a, b result) bool {
 		return a.applicants > b.applicants
 	})
 
@@ -43,43 +42,44 @@ func main() {
 		jobBins[result.jobname] = struct{}{}
 	}
 
-	fp, _ := os.Create("results.csv")
-	w := csv.NewWriter(fp)
+	fpRes, _ := os.Create("results.csv")
+	defer fpRes.Close()
+	w := csv.NewWriter(fpRes)
+	defer w.Flush()
 	w.Write(result{}.CSVHeader())
 	for _, result := range allResults {
 		w.Write(result.CSVRecord())
 	}
-	fp.Close()
 
 	// Location Analyses
-	fp, _ = os.Create("report_by_location.md")
-	fp.WriteString("# Revelo Job Market Analysis (by Location)\n\n")
+	fploc, _ := os.Create("report_by_location.md")
+	defer fploc.Close()
+	fploc.WriteString("# Revelo Job Market Analysis (by Location)\n\n")
 	for location := range locationBins {
-		fp.WriteString(fmt.Sprintf("### By Applicants in %s\n", location))
-		fp.WriteString("| Job Name | Applicants | Pay USD/mo |\n| --- | --- | --- |\n")
+		fploc.WriteString(fmt.Sprintf("### By Applicants in %s\n", location))
+		fploc.WriteString("| Job Name | Applicants | Pay USD/mo |\n| --- | --- | --- |\n")
 		for _, result := range resultsByApplicants {
 			if result.location != location {
 				continue
 			}
-			fp.WriteString(fmt.Sprintf("| %s | %d | %d |\n", result.jobname, result.applicants, result.paygrade))
+			fploc.WriteString(fmt.Sprintf("| %s | %d | %d |\n", result.jobname, result.applicants, result.paygrade))
 		}
 	}
-	fp.Close()
 
 	// Technology Analyses
-	fp, _ = os.Create("report_by_job.md")
-	fp.WriteString("# Revelo Job Market Analysis (by Job description)\n\n")
+	fpjob, _ := os.Create("report_by_job.md")
+	defer fpjob.Close()
+	fpjob.WriteString("# Revelo Job Market Analysis (by Job description)\n\n")
 	for job := range jobBins {
-		fp.WriteString(fmt.Sprintf("### Job description: %s\n", job))
-		fp.WriteString("| Location | Applicants | Pay USD/mo |\n| --- | --- | --- |\n")
+		fpjob.WriteString(fmt.Sprintf("### Job description: %s\n", job))
+		fpjob.WriteString("| Location | Applicants | Pay USD/mo |\n| --- | --- | --- |\n")
 		for _, result := range resultsByApplicants {
 			if result.jobname != job {
 				continue
 			}
-			fp.WriteString(fmt.Sprintf("| %s | %d | %d |\n", result.location, result.applicants, result.paygrade))
+			fpjob.WriteString(fmt.Sprintf("| %s | %d | %d |\n", result.location, result.applicants, result.paygrade))
 		}
 	}
-	fp.Close()
 
 }
 

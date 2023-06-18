@@ -1,166 +1,171 @@
 jobname,location,pay (USD),applicants
-.NET Core Developer,"Mexico City, Mexico",9000,9
-.NET Core Developer,"Bogota, D.C., Capital District, Colombia",9000,7
 .NET Core Developer,"Cordoba, Córdoba, Argentina",9000,8
+.NET Core Developer,"Mexico City, Mexico",9000,9
 .NET Core Developer,Venezuela,9000,10
-.NET Developer,"Mexico City, Mexico",9000,0
+.NET Core Developer,"Bogota, D.C., Capital District, Colombia",9000,7
 .NET Developer,"Cordoba, Córdoba, Argentina",9000,0
+.NET Developer,"Mexico City, Mexico",9000,0
 .NET Developer,"Monterrey, Nuevo León, Mexico",9000,24
 .NET Developer,"Bogota, D.C., Capital District, Colombia",9000,0
 .NET Developer,Venezuela,9000,21
-AWS Developer,Peru,9000,5
-AWS Developer,"Mexico City, Mexico",9000,2
 AWS Developer,"Cordoba, Córdoba, Argentina",9000,3
 AWS Developer,"Bogota, D.C., Capital District, Colombia",9000,11
 AWS Developer,Venezuela,9000,6
 AWS Developer,"Guadalajara, Jalisco, Mexico",9000,3
-Android Developer,"Bogota, D.C., Capital District, Colombia",9000,14
+AWS Developer,"Mexico City, Mexico",9000,2
+AWS Developer,Peru,9000,5
+Android Developer,"Cordoba, Córdoba, Argentina",9000,9
+Android Developer,Costa Rica,9000,19
 Android Developer,"Mexico City, Mexico",9000,16
+Android Developer,"Monterrey, Nuevo León, Mexico",9000,9
+Android Developer,"Bogota, D.C., Capital District, Colombia",9000,14
 Android Developer,Venezuela,9000,8
 Android Developer,Peru,9000,12
 Android Developer,"Cerro Largo, Uruguay",9000,9
-Android Developer,"Monterrey, Nuevo León, Mexico",9000,9
-Android Developer,"Cordoba, Córdoba, Argentina",9000,9
-Android Developer,Costa Rica,9000,19
+Angular.JS Developer,"Cordoba, Córdoba, Argentina",9000,10
+Angular.JS Developer,"Guadalajara, Jalisco, Mexico",9000,14
+Angular.JS Developer,"Mexico City, Mexico",9000,9
 Angular.JS Developer,Venezuela,9000,5
 Angular.JS Developer,"Bogota, D.C., Capital District, Colombia",9000,13
-Angular.JS Developer,"Cordoba, Córdoba, Argentina",9000,10
-Angular.JS Developer,"Mexico City, Mexico",9000,9
-Angular.JS Developer,"Guadalajara, Jalisco, Mexico",9000,14
-Backend Developer,Peru,9000,24
-Backend Developer,Venezuela,9000,5
-Backend Developer,"Bogota, D.C., Capital District, Colombia",9000,21
-Backend Developer,"Mexico City, Mexico",9000,4
 Backend Developer,"Cordoba, Córdoba, Argentina",9000,24
+Backend Developer,"Bogota, D.C., Capital District, Colombia",9000,21
+Backend Developer,Peru,9000,24
+Backend Developer,"Mexico City, Mexico",9000,4
+Backend Developer,Venezuela,9000,5
 C# Developer,"Cordoba, Córdoba, Argentina",9000,0
 C# Developer,"Mexico City, Mexico",9000,0
-C# Developer,Venezuela,9000,7
 C# Developer,"Bogota, D.C., Capital District, Colombia",9000,0
-Django Developer,Peru,9000,3
-Django Developer,Venezuela,9000,7
+C# Developer,Venezuela,9000,7
+Django Developer,"Cordoba, Córdoba, Argentina",9000,12
+Django Developer,"Mexico City, Mexico",9000,10
 Django Developer,"Bogota, D.C., Capital District, Colombia",9000,7
 Django Developer,Costa Rica,9000,6
-Django Developer,"Mexico City, Mexico",9000,10
-Django Developer,"Cordoba, Córdoba, Argentina",9000,12
+Django Developer,Venezuela,9000,7
 Django Developer,"Cerro Largo, Uruguay",9000,14
-Firebase Developer,Venezuela,9000,2
-Firebase Developer,"Mexico City, Mexico",9000,3
+Django Developer,Peru,9000,3
 Firebase Developer,"Cordoba, Córdoba, Argentina",9000,7
+Firebase Developer,"Mexico City, Mexico",9000,3
+Firebase Developer,Venezuela,9000,2
 Firebase Developer,"Bogota, D.C., Capital District, Colombia",9000,0
-Flutter Developer,"Bogota, D.C., Capital District, Colombia",9000,17
-Flutter Developer,"Cerro Largo, Uruguay",9000,5
-Flutter Developer,"Monterrey, Nuevo León, Mexico",9000,24
-Flutter Developer,Venezuela,9000,8
-Flutter Developer,Costa Rica,9000,15
 Flutter Developer,"Cordoba, Córdoba, Argentina",9000,9
 Flutter Developer,"Mexico City, Mexico",9000,18
+Flutter Developer,"Monterrey, Nuevo León, Mexico",9000,24
+Flutter Developer,"Bogota, D.C., Capital District, Colombia",9000,17
+Flutter Developer,Costa Rica,9000,15
+Flutter Developer,Venezuela,9000,8
 Flutter Developer,Peru,9000,10
-Front End Developer,"Cerro Largo, Uruguay",9000,0
-Front End Developer,"Ciudad Juárez, Chihuahua, Mexico",9000,0
+Flutter Developer,"Cerro Largo, Uruguay",9000,5
 Front End Developer,"Cordoba, Córdoba, Argentina",9000,0
-Front End Developer,Costa Rica,9000,0
-Front End Developer,"Mexico City, Mexico",9000,0
 Front End Developer,Argentina,9000,0
+Front End Developer,Venezuela,9000,0
+Front End Developer,"Ciudad Juárez, Chihuahua, Mexico",9000,0
+Front End Developer,"Mexico City, Mexico",9000,0
+Front End Developer,Costa Rica,9000,0
+Front End Developer,"Cerro Largo, Uruguay",9000,0
 Front End Developer,"Mexico City, Mexico",9000,0
 Front End Developer,Peru,9000,0
-Front End Developer,Venezuela,9000,0
-Full Stack Developer,Venezuela,9000,8
-Full Stack Developer,Peru,9000,11
-Full Stack Developer,"Mexico City, Mexico",9000,7
-Full Stack Developer,"Bogota, D.C., Capital District, Colombia",9000,8
 Full Stack Developer,"Cordoba, Córdoba, Argentina",9000,18
+Full Stack Developer,"Bogota, D.C., Capital District, Colombia",9000,8
+Full Stack Developer,Venezuela,9000,8
+Full Stack Developer,"Mexico City, Mexico",9000,7
+Full Stack Developer,Peru,9000,11
+Go Developer,"Cordoba, Córdoba, Argentina",9000,17
 Go Developer,"Mexico City, Mexico",9000,8
 Go Developer,"Bogota, D.C., Capital District, Colombia",9000,10
 Go Developer,Venezuela,9000,8
-Go Developer,"Cordoba, Córdoba, Argentina",9000,17
-GraphQL Developer,Venezuela,9000,2
+GraphQL Developer,"Cordoba, Córdoba, Argentina",9000,2
 GraphQL Developer,"Mexico City, Mexico",9000,2
 GraphQL Developer,"Bogota, D.C., Capital District, Colombia",9000,3
-GraphQL Developer,"Cordoba, Córdoba, Argentina",9000,2
 GraphQL Developer,Peru,9000,4
-Java Developer,Venezuela,9000,4
+GraphQL Developer,Venezuela,9000,2
+Java Developer,"Cordoba, Córdoba, Argentina",9000,0
 Java Developer,"Bogota, D.C., Capital District, Colombia",9000,0
 Java Developer,"Mexico City, Mexico",9000,0
-Java Developer,"Cordoba, Córdoba, Argentina",9000,0
-Javascript Developer,Peru,9000,9
-Javascript Developer,Venezuela,9000,21
-Javascript Developer,"Bogota, D.C., Capital District, Colombia",9000,0
-Javascript Developer,"Guadalajara, Jalisco, Mexico",9000,12
-Javascript Developer,"Mexico City, Mexico",9000,10
-Javascript Developer,"Monterrey, Nuevo León, Mexico",9000,18
+Java Developer,Venezuela,9000,4
 Javascript Developer,"Cordoba, Córdoba, Argentina",9000,0
+Javascript Developer,"Monterrey, Nuevo León, Mexico",9000,18
+Javascript Developer,"Bogota, D.C., Capital District, Colombia",9000,0
+Javascript Developer,"Mexico City, Mexico",9000,10
+Javascript Developer,Venezuela,9000,21
+Javascript Developer,"Guadalajara, Jalisco, Mexico",9000,12
+Javascript Developer,Peru,9000,9
 Laravel Developer,"Cordoba, Córdoba, Argentina",9000,0
-Laravel Developer,Venezuela,9000,0
 Laravel Developer,"Mexico City, Mexico",9000,16
 Laravel Developer,"Bogota, D.C., Capital District, Colombia",9000,0
+Laravel Developer,Venezuela,9000,0
 Mobile Developer,"Cordoba, Córdoba, Argentina",9000,15
-Mobile Developer,Venezuela,9000,7
-Mobile Developer,"Bogota, D.C., Capital District, Colombia",9000,8
 Mobile Developer,"Mexico City, Mexico",9000,10
-Node.JS Developer,"Cerro Largo, Uruguay",9000,21
-Node.JS Developer,"Bogota, D.C., Capital District, Colombia",9000,0
-Node.JS Developer,Venezuela,9000,15
-Node.JS Developer,Peru,9000,12
+Mobile Developer,"Bogota, D.C., Capital District, Colombia",9000,8
+Mobile Developer,Venezuela,9000,7
+Node.JS Developer,"Cordoba, Córdoba, Argentina",9000,0
 Node.JS Developer,"Mexico City, Mexico",9000,22
 Node.JS Developer,Costa Rica,9000,0
-Node.JS Developer,"Cordoba, Córdoba, Argentina",9000,0
+Node.JS Developer,"Bogota, D.C., Capital District, Colombia",9000,0
+Node.JS Developer,Venezuela,9000,15
+Node.JS Developer,"Cerro Largo, Uruguay",9000,21
+Node.JS Developer,Peru,9000,12
+PHP Developer,"Cordoba, Córdoba, Argentina",9000,23
+PHP Developer,"Mexico City, Mexico",9000,21
 PHP Developer,"Bogota, D.C., Capital District, Colombia",9000,0
 PHP Developer,Venezuela,9000,22
 PHP Developer,"Ciudad Juárez, Chihuahua, Mexico",9000,15
-PHP Developer,"Mexico City, Mexico",9000,21
-PHP Developer,"Cordoba, Córdoba, Argentina",9000,23
 PostgreSQL Developer,"Cordoba, Córdoba, Argentina",9000,14
-PostgreSQL Developer,Venezuela,9000,5
 PostgreSQL Developer,"Mexico City, Mexico",9000,8
 PostgreSQL Developer,"Bogota, D.C., Capital District, Colombia",9000,13
-Python Developer,"Ciudad Juárez, Chihuahua, Mexico",9000,7
-Python Developer,"Bogota, D.C., Capital District, Colombia",9000,0
-Python Developer,Peru,9000,18
+PostgreSQL Developer,Venezuela,9000,5
 Python Developer,"Guadalajara, Jalisco, Mexico",9000,0
 Python Developer,"Mexico City, Mexico",9000,0
 Python Developer,"Monterrey, Nuevo León, Mexico",9000,20
+Python Developer,"Bogota, D.C., Capital District, Colombia",9000,0
 Python Developer,Venezuela,9000,0
-React Native Developer,"Guadalajara, Jalisco, Mexico",9000,9
+Python Developer,Peru,9000,18
+Python Developer,"Ciudad Juárez, Chihuahua, Mexico",9000,7
 React Native Developer,"Cordoba, Córdoba, Argentina",9000,15
-React Native Developer,Venezuela,9000,5
-React Native Developer,Peru,9000,11
-React Native Developer,"Bogota, D.C., Capital District, Colombia",9000,7
 React Native Developer,"Mexico City, Mexico",9000,11
-React.JS Developer,Venezuela,9000,19
-React.JS Developer,"Cerro Largo, Uruguay",9000,20
-React.JS Developer,"Mexico City, Mexico",9000,0
-React.JS Developer,Costa Rica,9000,0
+React Native Developer,"Guadalajara, Jalisco, Mexico",9000,9
+React Native Developer,"Bogota, D.C., Capital District, Colombia",9000,7
+React Native Developer,Peru,9000,11
+React Native Developer,Venezuela,9000,5
 React.JS Developer,"Cordoba, Córdoba, Argentina",9000,0
-React.JS Developer,Peru,9000,24
+React.JS Developer,Costa Rica,9000,0
+React.JS Developer,"Mexico City, Mexico",9000,0
 React.JS Developer,"Bogota, D.C., Capital District, Colombia",9000,0
 React.JS Developer,"Guadalajara, Jalisco, Mexico",9000,0
-Ruby Developer,Venezuela,9000,3
-Ruby Developer,"Guadalajara, Jalisco, Mexico",9000,4
-Ruby Developer,"Monterrey, Nuevo León, Mexico",9000,0
+React.JS Developer,Venezuela,9000,19
+React.JS Developer,"Cerro Largo, Uruguay",9000,20
+React.JS Developer,Peru,9000,24
 Ruby Developer,"Cordoba, Córdoba, Argentina",9000,3
-Ruby Developer,"Bogota, D.C., Capital District, Colombia",9000,2
 Ruby Developer,"Mexico City, Mexico",9000,5
-Ruby on Rails Developer,Venezuela,9000,3
+Ruby Developer,"Guadalajara, Jalisco, Mexico",9000,4
+Ruby Developer,Venezuela,9000,3
+Ruby Developer,"Bogota, D.C., Capital District, Colombia",9000,2
+Ruby Developer,"Monterrey, Nuevo León, Mexico",9000,0
 Ruby on Rails Developer,"Cordoba, Córdoba, Argentina",9000,0
-Ruby on Rails Developer,"Bogota, D.C., Capital District, Colombia",9000,7
 Ruby on Rails Developer,"Mexico City, Mexico",9000,3
-SQL Developer,Peru,9000,0
+Ruby on Rails Developer,"Bogota, D.C., Capital District, Colombia",9000,7
+Ruby on Rails Developer,Venezuela,9000,3
 SQL Developer,Venezuela,9000,0
-Salesforce Developer,Venezuela,9000,10
+SQL Developer,Peru,9000,0
+Salesforce Developer,"Cordoba, Córdoba, Argentina",9000,12
 Salesforce Developer,"Mexico City, Mexico",9000,12
 Salesforce Developer,"Guadalajara, Jalisco, Mexico",9000,8
+Salesforce Developer,Venezuela,9000,10
 Salesforce Developer,"Bogota, D.C., Capital District, Colombia",9000,8
-Salesforce Developer,"Cordoba, Córdoba, Argentina",9000,12
 Salesforce Developer,Peru,9000,4
-Typescript Developer,"Guadalajara, Jalisco, Mexico",9000,2
-Typescript Developer,"Mexico City, Mexico",9000,3
-Typescript Developer,Peru,9000,2
-Typescript Developer,Venezuela,9000,8
 Typescript Developer,"Cordoba, Córdoba, Argentina",9000,2
+Typescript Developer,Venezuela,9000,8
 Typescript Developer,"Bogota, D.C., Capital District, Colombia",9000,7
+Typescript Developer,"Mexico City, Mexico",9000,3
+Typescript Developer,"Guadalajara, Jalisco, Mexico",9000,2
+Typescript Developer,Peru,9000,2
 Vue.js Developer,"Cordoba, Córdoba, Argentina",9000,8
+Vue.js Developer,"Mexico City, Mexico",9000,13
 Vue.js Developer,"Bogota, D.C., Capital District, Colombia",9000,11
 Vue.js Developer,Venezuela,9000,9
-Vue.js Developer,"Mexico City, Mexico",9000,13
 Vue.js Developer,Peru,9000,4
-iOS Developer,"Bogota, D.C., Capital District, Colo
+iOS Developer,"Cordoba, Córdoba, Argentina",9000,6
+iOS Developer,Venezuela,9000,16
+iOS Developer,"Bogota, D.C., Capital District, Colombia",9000,14
+iOS Developer,"Mexico City, Mexico",9000,9
+iOS Developer,Costa Rica,9000,8
+iOS Developer,Peru,9000,8
