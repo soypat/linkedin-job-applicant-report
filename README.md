@@ -29,7 +29,7 @@ Process and generate reports using program [`main.go`](./main.go).
 ## Results
 
 - See [Report by job description](./report_by_job.md)
-- See [Report by location](./report_by_job.md)
-- Raw results in `result.csv` file
+- See [Report by location](./report_by_location.md)
+- Raw results in [`results.csv`](./results.csv) file
 
 
